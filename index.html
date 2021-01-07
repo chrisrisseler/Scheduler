@@ -25,46 +25,71 @@
     <!-- Timeblocks go here -->
 
 
-    <div class="input-group">
-      <span class="input-group-text" style="width: 80px;">9am</span>
-      <textarea class="form-control" id="9am" aria-label="9am"></textarea>
-      <button class="btn btn-primary" type="button" style="width: 50px;"><i class="fas fa-paperclip"></i></button>
+    <div class="input-group pb-1">
+      <span class="input-group-text hour" style="width: 80px;">9am</span>
+      <textarea class="form-control" id="9" aria-label="9am"></textarea>
+      <button class="btn btn-primary saveBtn" type="button" style="width: 50px;"><i
+          class="fas fa-paperclip"></i></button>
     </div>
-    <div class="input-group">
-      <span class="input-group-text" style="width: 80px;">10am</span>
-      <textarea class="form-control" id="10am" aria-label="10am"></textarea>
-      <button class="btn btn-primary" type="button" style="width: 50px;"><i class="fas fa-paperclip"></i></button>
+    <div class="input-group pb-1">
+      <span class="input-group-text hour" style="width: 80px;">10am</span>
+      <textarea class="form-control" id="10" aria-label="10am"></textarea>
+      <button class="btn btn-primary saveBtn" type="button" style="width: 50px;"><i
+          class="fas fa-paperclip"></i></button>
+    </div>
+    <div class="input-group pb-1">
+      <span class="input-group-text hour" style="width: 80px;">11am</span>
+      <textarea class="form-control" id="11" aria-label="11am"></textarea>
+      <button class="btn btn-primary saveBtn" type="button" style="width: 50px;"><i
+          class="fas fa-paperclip"></i></button>
+    </div>
+    <div class="input-group pb-1">
+      <span class="input-group-text hour" style="width: 80px;">12pm</span>
+      <textarea class="form-control" id="12" aria-label="12pm"></textarea>
+      <button class="btn btn-primary saveBtn" type="button" style="width: 50px;"><i
+          class="fas fa-paperclip"></i></button>
+    </div>
+    <div class="input-group pb-1">
+      <span class="input-group-text hour" style="width: 80px;">1pm</span>
+      <textarea class="form-control" id="13" aria-label="1pm"></textarea>
+      <button class="btn btn-primary saveBtn" type="button" style="width: 50px;"><i
+          class="fas fa-paperclip"></i></button>
+    </div>
+    <div class="input-group pb-1">
+      <span class="input-group-text hour" style="width: 80px;">2pm</span>
+      <textarea class="form-control" id="14" aria-label="2pm"></textarea>
+      <button class="btn btn-primary saveBtn" type="button" style="width: 50px;"><i
+          class="fas fa-paperclip"></i></button>
+    </div>
+    <div class="input-group pb-1">
+      <span class="input-group-text hour" style="width: 80px;">3pm</span>
+      <textarea class="form-control" id="15" aria-label="3pm"></textarea>
+      <button class="btn btn-primary saveBtn" type="button" style="width: 50px;"><i
+          class="fas fa-paperclip"></i></button>
+    </div>
+    <div class="input-group pb-1">
+      <span class="input-group-text hour" style="width: 80px;">4pm</span>
+      <textarea class="form-control" id="16" aria-label="4pm"></textarea>
+      <button class="btn btn-primary saveBtn" type="button" style="width: 50px;"><i
+          class="fas fa-paperclip"></i></button>
+    </div>
+    <div class="input-group pb-5">
+      <span class="input-group-text hour" style="width: 80px;">5pm</span>
+      <textarea class="form-control" id="17" aria-label="5pm"></textarea>
+      <button class="btn btn-primary saveBtn" type="button" style="width: 50px;"><i
+          class="fas fa-paperclip"></i></button>
     </div>
 
   </div>
-
+  <footer></footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-  //get text areas
-
-  //get time
-
-  //have text area change color based on if time has passed
-
-  //get button click
-
-  //have button click save text area to local memory
-
-  //have prevent default in text area to keep it from defaulting
-
 
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js">
-    //get the currentDay id
-    var date = document.getElementById("currentDay")
-    //get date called in format of month day year
-    var momentTime = moment().format('MMMM Do YYYY, h:mm:ss a');
-    //change text in currentDay to date and time
-    date.textContent = momentTime
-
 
   </script>
 
-
+  <script src="script.js"></script>
 
 
 </body>
