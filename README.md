@@ -41,4 +41,4 @@ If you want to contact me you can reach me at chrisrisseler43@gmail.com.
 ## License
 <!--- If you're not sure which open license to use see https://choosealicense.com/--->
 
-This project uses the following license: MIT Liscence Copywright (c) 2020 Chris Risseler <a href = "assets/license.md">License Here.</a>
+This project uses the following license: MIT Liscence Copywright (c) 2021 Chris Risseler <a href = "assets/license.md">License Here.</a>
