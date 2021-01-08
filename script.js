@@ -9,6 +9,8 @@ function checkTime() {
 
   var currentHour = moment().hour()
 
+  // var currentHour = 12
+
   $("textarea").each(function () {
     var calendarHour = parseInt($(this).attr("id"))
 
