@@ -32,7 +32,7 @@ Thanks to the following people who have contributed to this project:
 * Carl V.
 * Joshua B.
 * Tim A.
-
+* Alistair R.
 
 ## Contact
 
